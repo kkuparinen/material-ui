@@ -1,0 +1,15 @@
+packages:
+  - packages/*
+  - packages/mui-envinfo/test
+  - packages-internal/*
+  - docs
+  - test
+  - test/moduleResolution
+  - apps/*
+  - scripts/sizeSnapshot
+
+patchedDependencies:
+  styled-components: patches/styled-components.patch
+
+onlyBuiltDependencies:
+  - '@vvago/vale'
